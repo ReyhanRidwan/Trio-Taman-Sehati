@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, Georgia, serif;
+}
+
+/* Custom visual refinements to make the landscape theme outstanding */
+html {
+  scroll-behavior: smooth;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #fcfbf7; /* Elegant soft ivory white for garden landscape theme */
+  color: #1c2a1c; /* Deep forest charcoal dark ink */
+}
+
+/* Custom sleek scroller */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f4f2ea;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd3c6;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #8fa086;
+}
+
+.font-serif {
+  font-family: var(--font-serif);
+}
+

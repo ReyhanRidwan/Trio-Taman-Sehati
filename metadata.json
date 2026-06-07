@@ -1,0 +1,6 @@
+{
+  "name": "Trio Taman Sehati",
+  "description": "Website profesional Jasa Landscape Taman, Pembuatan Taman Minimalis, Kering, Tropis, Kolam Hias, dan Gazebo oleh Trio Taman Sehati.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
